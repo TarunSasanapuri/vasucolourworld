@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="100%" height="100%">
+  <defs>
+    <!-- Cylindrical lighting gradients -->
+    <linearGradient id="knCanBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b91c1c"/>
+      <stop offset="25%" stop-color="#ef4444"/>
+      <stop offset="55%" stop-color="#dc2626"/>
+      <stop offset="85%" stop-color="#991b1b"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+
+    <linearGradient id="knLidMetal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="30%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+
+    <linearGradient id="knRimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64748b"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+
+    <radialGradient id="knCanShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(15, 23, 42, 0.45)"/>
+      <stop offset="60%" stop-color="rgba(15, 23, 42, 0.18)"/>
+      <stop offset="100%" stop-color="rgba(15, 23, 42, 0)"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ground Drop Shadow -->
+  <ellipse cx="200" cy="415" rx="145" ry="16" fill="url(#knCanShadow)"/>
+
+  <!-- Metal Handle Arc -->
+  <path d="M 68 150 C 45 60, 355 60, 332 150" fill="none" stroke="#94a3b8" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="68" cy="150" r="5" fill="#64748b"/>
+  <circle cx="332" cy="150" r="5" fill="#64748b"/>
+
+  <!-- Can Lower Base Rim -->
+  <path d="M 72 380 C 72 395, 328 395, 328 380 L 328 388 C 328 403, 72 403, 72 388 Z" fill="url(#knRimGrad)"/>
+
+  <!-- Main Paint Bucket Body -->
+  <path d="M 72 135 L 75 385 C 75 400, 325 400, 325 385 L 328 135 Z" fill="url(#knCanBody)"/>
+
+  <!-- Kansai Nerolac Left Ribbon / Stripe -->
+  <path d="M 72 135 L 74 385 C 105 393, 140 395, 145 395 L 145 135 Z" fill="#00a0e9" opacity="0.95"/>
+
+  <!-- Can Specular Lighting Overlay -->
+  <path d="M 160 135 L 160 398 L 195 398 L 195 135 Z" fill="#ffffff" opacity="0.12"/>
+  <path d="M 175 135 L 175 398 L 185 398 L 185 135 Z" fill="#ffffff" opacity="0.18"/>
+
+  <!-- Brand Label Artwork Area -->
+  <g transform="translate(148, 175)">
+    <!-- Kansai Nerolac Stylized Logo -->
+    <path d="M 0 0 L 14 0 L 22 18 L 30 0 L 44 0 L 30 24 L 46 50 L 32 50 L 22 30 L 14 42 L 14 50 L 0 50 Z" fill="#ffffff"/>
+    <text x="52" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="1">NEROLAC</text>
+    <text x="52" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#fecaca" letter-spacing="2">KANSAI PAINT</text>
+  </g>
+
+  <!-- Authentic Inventory Badge -->
+  <g transform="translate(200, 268)">
+    <!-- Container Pill -->
+    <rect x="-95" y="0" width="190" height="30" rx="15" fill="#ffffff" opacity="0.95"/>
+    <text x="0" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#b91c1c" text-anchor="middle" letter-spacing="0.5">★ OFFICIAL INVENTORY ★</text>
+  </g>
+
+  <g transform="translate(200, 316)">
+    <!-- Secondary Badge -->
+    <rect x="-80" y="0" width="160" height="24" rx="12" fill="#000000" opacity="0.25"/>
+    <text x="0" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">ORIGINAL STORE PACK</text>
+  </g>
+
+  <!-- Upper Rim Collar -->
+  <ellipse cx="200" cy="135" rx="128" ry="14" fill="url(#knRimGrad)"/>
+
+  <!-- Lid Stepped Rim -->
+  <path d="M 68 126 C 68 112, 332 112, 332 126 L 332 135 C 332 121, 68 121, 68 135 Z" fill="url(#knLidMetal)"/>
+
+  <!-- Top Lid Surface -->
+  <ellipse cx="200" cy="122" rx="132" ry="15" fill="url(#knLidMetal)"/>
+  <ellipse cx="200" cy="120" rx="120" ry="12" fill="#f8fafc"/>
+  <ellipse cx="200" cy="119" rx="100" ry="9" fill="#e2e8f0"/>
+  <ellipse cx="200" cy="118" rx="70" ry="6" fill="#cbd5e1"/>
+</svg>
