@@ -87,11 +87,12 @@
       <!-- Floating Launcher Button -->
       <button class="chat-launcher" id="chat-launcher" type="button" aria-label="Open Paint Calculator Chatbot" title="Calculate Paint Quantity & Coverage">
         <div class="launcher-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="ic-chat"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="ic-calc"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="16" y1="14" x2="16" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>
+          <img src="assets/images/chatbot-avatar.svg" alt="Chatbot" class="launcher-avatar-img">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="ic-close" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </div>
         <span class="launcher-label">Paint Calculator Bot</span>
         <span class="launcher-badge">Online</span>
+        <span class="launcher-pulse-dot" aria-hidden="true"></span>
       </button>
 
       <!-- Chat Window -->
@@ -99,7 +100,9 @@
         <!-- Header -->
         <div class="chat-header">
           <div class="chat-header-info">
-            <div class="chat-bot-avatar">🎨</div>
+            <div class="chat-bot-avatar">
+              <img src="assets/images/chatbot-avatar.svg" alt="Vasu Assistant" class="chat-avatar-header-img">
+            </div>
             <div>
               <div class="chat-title">Vasu Paint Assistant</div>
               <div class="chat-status"><span class="status-dot"></span> Official Guide Calculator</div>
@@ -184,21 +187,46 @@
     return container;
   }
 
-  function toggleChat() {
+  function openChat() {
     const windowEl = document.getElementById('chat-window');
     const launcher = document.getElementById('chat-launcher');
-    if (!windowEl) return;
+    if (!windowEl || isOpen) return;
 
-    isOpen = !isOpen;
-    windowEl.classList.toggle('open', isOpen);
-    launcher.classList.toggle('active', isOpen);
+    isOpen = true;
+    windowEl.classList.remove('closing');
+    windowEl.classList.add('open');
+    if (launcher) launcher.classList.add('active');
 
+    setTimeout(() => {
+      const input = document.getElementById('chat-input');
+      if (input && window.innerWidth > 768) input.focus();
+      scrollToBottom();
+    }, 150);
+  }
+
+  function closeChat() {
+    const windowEl = document.getElementById('chat-window');
+    const launcher = document.getElementById('chat-launcher');
+    if (!windowEl || !isOpen) return;
+
+    isOpen = false;
+    windowEl.classList.remove('open');
+    windowEl.classList.add('closing');
+    if (launcher) launcher.classList.remove('active');
+
+    setTimeout(() => {
+      windowEl.classList.remove('closing');
+    }, 240);
+  }
+
+  function toggleChat(e) {
+    if (e && typeof e.stopPropagation === 'function') {
+      e.stopPropagation();
+    }
     if (isOpen) {
-      setTimeout(() => {
-        const input = document.getElementById('chat-input');
-        if (input && window.innerWidth > 768) input.focus();
-        scrollToBottom();
-      }, 150);
+      closeChat();
+    } else {
+      openChat();
     }
   }
 
@@ -782,7 +810,7 @@
   }
 
   function openWithProduct(productId) {
-    if (!isOpen) toggleChat();
+    if (!isOpen) openChat();
     addBotMessage("Calculating for selected paint product:");
     renderRoomInputsCard({ productId: productId });
   }
@@ -790,8 +818,8 @@
   window.VasuChatbot = {
     init: initChatbot,
     toggle: toggleChat,
-    open: () => { if (!isOpen) toggleChat(); },
-    close: () => { if (isOpen) toggleChat(); },
+    open: openChat,
+    close: closeChat,
     openWithProduct: openWithProduct,
     calculateRoom: performAndDisplayRoomCalculation
   };
