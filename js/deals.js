@@ -199,7 +199,18 @@
       }
     });
 
-    // 10. Start initial auto-scroll (respecting prefers-reduced-motion)
+    // 10. Deal Banner Calculate Button Handler
+    const calcDealsBtn = hero.querySelector('a[href="#chat-launcher"]');
+    if (calcDealsBtn) {
+      calcDealsBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (window.VasuChatbot && typeof window.VasuChatbot.open === 'function') {
+          window.VasuChatbot.open();
+        }
+      });
+    }
+
+    // 11. Start initial auto-scroll (respecting prefers-reduced-motion)
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (prefersReducedMotion) {
       setPauseState(true);
@@ -212,4 +223,3 @@
     init: initHeroSlider
   };
 })();
-
