@@ -2763,13 +2763,14 @@ footer {
   gap: 10px;
   background: linear-gradient(135deg, var(--p) 0%, #14206b 100%);
   color: #ffffff;
-  padding: 12px 20px;
+  padding: 10px 18px;
   border-radius: 999px;
   border: 2px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 28px rgba(20, 32, 107, 0.4);
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   user-select: none;
+  position: relative;
 }
 
 .chat-launcher:hover {
@@ -2778,27 +2779,38 @@ footer {
 }
 
 .launcher-icon {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   position: relative;
   display: grid;
   place-items: center;
+  flex-shrink: 0;
 }
 
-.launcher-icon svg {
-  width: 22px;
-  height: 22px;
+.launcher-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.2s ease;
 }
 
-.ic-calc {
+.chat-launcher:hover .launcher-avatar-img {
+  transform: scale(1.12);
+}
+
+.ic-close {
+  display: none;
+  width: 20px;
+  height: 20px;
+  stroke: #ffffff;
+}
+
+.chat-launcher.active .launcher-avatar-img {
   display: none;
 }
 
-.chat-launcher.active .ic-chat {
-  display: none;
-}
-
-.chat-launcher.active .ic-calc {
+.chat-launcher.active .ic-close {
   display: block;
 }
 
@@ -2817,7 +2829,12 @@ footer {
   line-height: 1;
 }
 
+.launcher-pulse-dot {
+  display: none;
+}
+
 .chat-window {
+  display: none;
   position: absolute;
   bottom: 74px;
   right: 0;
@@ -2829,20 +2846,42 @@ footer {
   border-radius: 20px;
   border: 1px solid #e2e8f0;
   box-shadow: 0 20px 50px rgba(15, 23, 42, 0.25);
-  display: flex;
   flex-direction: column;
   overflow: hidden;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(20px) scale(0.94);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   box-sizing: border-box;
+  z-index: 1000;
 }
 
 .chat-window.open {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translateY(0) scale(1);
+  display: flex;
+  animation: chatWindowIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.chat-window.closing {
+  display: flex;
+  animation: chatWindowOut 0.2s ease-in forwards;
+}
+
+@keyframes chatWindowIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes chatWindowOut {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px) scale(0.94);
+  }
 }
 
 .chat-header {
@@ -2869,8 +2908,17 @@ footer {
   background: rgba(255, 255, 255, 0.12);
   display: grid;
   place-items: center;
-  font-size: 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.chat-avatar-header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .chat-title {
@@ -3941,20 +3989,103 @@ footer {
     border-bottom-right-radius: 0;
   }
 
+  /* Mobile Phone View: Small Ball Shaped Launcher with Chatbot Image */
   .vasu-chatbot-container {
-    bottom: 16px;
-    right: 16px;
+    bottom: 18px;
+    right: 18px;
+    z-index: 1050;
   }
 
   .chat-launcher {
-    padding: 10px 16px;
+    width: 58px;
+    height: 58px;
+    min-width: 58px;
+    min-height: 58px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    background: radial-gradient(circle at 35% 28%, #60a5fa 0%, #2563eb 45%, #1e1b4b 100%);
+    box-shadow: 
+      0 10px 25px -3px rgba(30, 58, 138, 0.65), 
+      0 0 0 3px rgba(255, 255, 255, 0.95), 
+      inset 0 3px 5px rgba(255, 255, 255, 0.55),
+      inset 0 -3px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    animation: botBallFloat 3s ease-in-out infinite;
+    -webkit-tap-highlight-color: transparent;
   }
 
-  .launcher-label {
-    font-size: 13px;
+  .chat-launcher:active {
+    transform: scale(0.92);
+  }
+
+  .launcher-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .launcher-avatar-img {
+    width: 38px;
+    height: 38px;
+    display: block;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+    pointer-events: none;
+  }
+
+  .launcher-label,
+  .launcher-badge {
+    display: none !important;
+  }
+
+  .launcher-pulse-dot {
+    display: block !important;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #22c55e;
+    border: 2.5px solid #ffffff;
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.9);
+  }
+
+  /* When chat is open on mobile, launcher smoothly hides so it doesn't overlap the mobile chat */
+  .chat-launcher.active {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.7);
+  }
+
+  @keyframes botBallFloat {
+    0%, 100% {
+      transform: translateY(0);
+      box-shadow: 
+        0 10px 25px -3px rgba(30, 58, 138, 0.65), 
+        0 0 0 3px rgba(255, 255, 255, 0.95), 
+        inset 0 3px 5px rgba(255, 255, 255, 0.55),
+        inset 0 -3px 6px rgba(0, 0, 0, 0.4);
+    }
+    50% {
+      transform: translateY(-5px);
+      box-shadow: 
+        0 16px 30px -3px rgba(30, 58, 138, 0.5), 
+        0 0 0 3px rgba(255, 255, 255, 0.95), 
+        inset 0 3px 5px rgba(255, 255, 255, 0.55),
+        inset 0 -3px 6px rgba(0, 0, 0, 0.4);
+    }
   }
 
   .chat-window {
+    display: none;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -3965,6 +4096,39 @@ footer {
     max-height: 92vh;
     border-radius: 20px 20px 0 0;
     z-index: 1100;
+    box-shadow: 0 -10px 40px rgba(15, 23, 42, 0.35);
+  }
+
+  .chat-window.open {
+    display: flex;
+    animation: chatWindowMobileIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .chat-window.closing {
+    display: flex;
+    animation: chatWindowMobileOut 0.22s ease-in forwards;
+  }
+
+  @keyframes chatWindowMobileIn {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes chatWindowMobileOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(100%);
+    }
   }
 }
 
