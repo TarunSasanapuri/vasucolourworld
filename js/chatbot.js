@@ -18,15 +18,15 @@
 (function () {
   let isOpen = false;
   let calculationInputs = {
-    lengthFt: 0,
-    widthFt: 0,
-    heightFt: 0,
-    doorsCount: 0,
-    doorWidthFt: 0,
-    doorHeightFt: 0,
-    windowsCount: 0,
-    windowWidthFt: 0,
-    windowHeightFt: 0,
+    lengthFt: '',
+    widthFt: '',
+    heightFt: '',
+    doorsCount: '',
+    doorWidthFt: '',
+    doorHeightFt: '',
+    windowsCount: '',
+    windowWidthFt: '',
+    windowHeightFt: '',
     includeCeiling: true,
     productId: 'ap-royale-luxury',
     coats: 2,
@@ -295,10 +295,19 @@
     if (!paintData) return;
 
     const defaults = Object.assign({}, calculationInputs, customDefaults);
+    const valL = defaults.lengthFt ? defaults.lengthFt : '';
+    const valW = defaults.widthFt ? defaults.widthFt : '';
+    const valH = defaults.heightFt ? defaults.heightFt : '';
+    const valDoors = defaults.doorsCount ? defaults.doorsCount : '';
     const dwInit = Number(defaults.doorWidthFt) || 0;
     const dhInit = Number(defaults.doorHeightFt) || 0;
+    const valDoorW = dwInit ? dwInit : '';
+    const valDoorH = dhInit ? dhInit : '';
+    const valWins = defaults.windowsCount ? defaults.windowsCount : '';
     const wwInit = Number(defaults.windowWidthFt) || 0;
     const whInit = Number(defaults.windowHeightFt) || 0;
+    const valWinW = wwInit ? wwInit : '';
+    const valWinH = whInit ? whInit : '';
 
     const card = document.createElement('div');
     card.className = 'chat-card formula-input-card';
@@ -319,21 +328,21 @@
         <div class="form-field">
           <label for="inp-l">Length (L)</label>
           <div class="inp-unit">
-            <input type="number" id="inp-l" value="${defaults.lengthFt !== undefined ? defaults.lengthFt : 0}" min="0" max="100" step="0.5">
+            <input type="number" id="inp-l" value="${valL}" placeholder="Length (e.g. 12)" min="0" max="100" step="0.5">
             <span>ft</span>
           </div>
         </div>
         <div class="form-field">
           <label for="inp-w">Width (W)</label>
           <div class="inp-unit">
-            <input type="number" id="inp-w" value="${defaults.widthFt !== undefined ? defaults.widthFt : 0}" min="0" max="100" step="0.5">
+            <input type="number" id="inp-w" value="${valW}" placeholder="Width (e.g. 10)" min="0" max="100" step="0.5">
             <span>ft</span>
           </div>
         </div>
         <div class="form-field">
           <label for="inp-h">Height (H)</label>
           <div class="inp-unit">
-            <input type="number" id="inp-h" value="${defaults.heightFt !== undefined ? defaults.heightFt : 0}" min="0" max="30" step="0.5">
+            <input type="number" id="inp-h" value="${valH}" placeholder="Height (e.g. 10)" min="0" max="30" step="0.5">
             <span>ft</span>
           </div>
         </div>
@@ -349,28 +358,28 @@
         <div class="opening-card">
           <div class="opening-card-head">
             <span class="opening-title">Doors</span>
-            <span class="opening-calc-tag" id="door-calc-tag">${dwInit} &times; ${dhInit} = ${Math.round(dwInit * dhInit * 10) / 10} sq.ft each</span>
+            <span class="opening-calc-tag" id="door-calc-tag">${dwInit && dhInit ? `${dwInit} &times; ${dhInit} = ${Math.round(dwInit * dhInit * 10) / 10} sq.ft each` : 'e.g. 3 &times; 7 ft'}</span>
           </div>
           <div class="opening-inputs-grid">
             <div class="form-field">
               <label for="inp-doors">No. of Doors</label>
               <div class="stepper-input">
                 <button type="button" class="step-btn" data-target="inp-doors" data-step="-1">&minus;</button>
-                <input type="number" id="inp-doors" value="${defaults.doorsCount !== undefined ? defaults.doorsCount : 0}" min="0" max="10">
+                <input type="number" id="inp-doors" value="${valDoors}" placeholder="0" min="0" max="10">
                 <button type="button" class="step-btn" data-target="inp-doors" data-step="1">&plus;</button>
               </div>
             </div>
             <div class="form-field">
               <label for="inp-door-w">Width (W)</label>
               <div class="inp-unit">
-                <input type="number" id="inp-door-w" value="${dwInit}" min="0" max="20" step="0.5">
+                <input type="number" id="inp-door-w" value="${valDoorW}" placeholder="Width (e.g. 3)" min="0" max="20" step="0.5">
                 <span>ft</span>
               </div>
             </div>
             <div class="form-field">
               <label for="inp-door-h">Height (H)</label>
               <div class="inp-unit">
-                <input type="number" id="inp-door-h" value="${dhInit}" min="0" max="20" step="0.5">
+                <input type="number" id="inp-door-h" value="${valDoorH}" placeholder="Height (e.g. 7)" min="0" max="20" step="0.5">
                 <span>ft</span>
               </div>
             </div>
@@ -381,28 +390,28 @@
         <div class="opening-card">
           <div class="opening-card-head">
             <span class="opening-title">Windows</span>
-            <span class="opening-calc-tag" id="win-calc-tag">${wwInit} &times; ${whInit} = ${Math.round(wwInit * whInit * 10) / 10} sq.ft each</span>
+            <span class="opening-calc-tag" id="win-calc-tag">${wwInit && whInit ? `${wwInit} &times; ${whInit} = ${Math.round(wwInit * whInit * 10) / 10} sq.ft each` : 'e.g. 4 &times; 4 ft'}</span>
           </div>
           <div class="opening-inputs-grid">
             <div class="form-field">
               <label for="inp-windows">No. of Windows</label>
               <div class="stepper-input">
                 <button type="button" class="step-btn" data-target="inp-windows" data-step="-1">&minus;</button>
-                <input type="number" id="inp-windows" value="${defaults.windowsCount !== undefined ? defaults.windowsCount : 0}" min="0" max="10">
+                <input type="number" id="inp-windows" value="${valWins}" placeholder="0" min="0" max="10">
                 <button type="button" class="step-btn" data-target="inp-windows" data-step="1">&plus;</button>
               </div>
             </div>
             <div class="form-field">
               <label for="inp-win-w">Width (W)</label>
               <div class="inp-unit">
-                <input type="number" id="inp-win-w" value="${wwInit}" min="0" max="20" step="0.5">
+                <input type="number" id="inp-win-w" value="${valWinW}" placeholder="Width (e.g. 4)" min="0" max="20" step="0.5">
                 <span>ft</span>
               </div>
             </div>
             <div class="form-field">
               <label for="inp-win-h">Height (H)</label>
               <div class="inp-unit">
-                <input type="number" id="inp-win-h" value="${whInit}" min="0" max="20" step="0.5">
+                <input type="number" id="inp-win-h" value="${valWinH}" placeholder="Height (e.g. 4)" min="0" max="20" step="0.5">
                 <span>ft</span>
               </div>
             </div>
@@ -470,12 +479,20 @@
       const dw = Number(card.querySelector('#inp-door-w').value) || 0;
       const dh = Number(card.querySelector('#inp-door-h').value) || 0;
       const dTag = card.querySelector('#door-calc-tag');
-      if (dTag) dTag.textContent = `${dw} × ${dh} = ${Math.round(dw * dh * 10) / 10} sq.ft each`;
+      if (dTag) {
+        dTag.textContent = (dw && dh)
+          ? `${dw} × ${dh} = ${Math.round(dw * dh * 10) / 10} sq.ft each`
+          : 'e.g. 3 × 7 ft';
+      }
 
       const ww = Number(card.querySelector('#inp-win-w').value) || 0;
       const wh = Number(card.querySelector('#inp-win-h').value) || 0;
       const wTag = card.querySelector('#win-calc-tag');
-      if (wTag) wTag.textContent = `${ww} × ${wh} = ${Math.round(ww * wh * 10) / 10} sq.ft each`;
+      if (wTag) {
+        wTag.textContent = (ww && wh)
+          ? `${ww} × ${wh} = ${Math.round(ww * wh * 10) / 10} sq.ft each`
+          : 'e.g. 4 × 4 ft';
+      }
     }
 
     card.querySelector('#inp-door-w').addEventListener('input', updateOpeningTags);
