@@ -25,14 +25,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20Kg, 10Kg, 5Kg, 2Kg, 1Kg",
             "coverage1Coat": {
-                "min": 105.0,
-                "max": 120.0,
+                "min": 105,
+                "max": 120,
                 "avg": 112.5
             },
             "coverage2Coats": {
-                "min": 210.0,
-                "max": 240.0,
-                "avg": 225.0
+                "min": 210,
+                "max": 240,
+                "avg": 225
             },
             "description": "Smooth Finish + Higher Coverage + 1000+ Shades"
         },
@@ -49,14 +49,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 110.0,
-                "max": 130.0,
-                "avg": 120.0
+                "min": 110,
+                "max": 130,
+                "avg": 120
             },
             "coverage2Coats": {
-                "min": 220.0,
-                "max": 260.0,
-                "avg": 240.0
+                "min": 220,
+                "max": 260,
+                "avg": 240
             },
             "description": "1.5X Coverage Than Distemper, Smooth Finish"
         },
@@ -73,14 +73,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 110.0,
-                "max": 130.0,
-                "avg": 120.0
+                "min": 110,
+                "max": 130,
+                "avg": 120
             },
             "coverage2Coats": {
-                "min": 220.0,
-                "max": 260.0,
-                "avg": 240.0
+                "min": 220,
+                "max": 260,
+                "avg": 240
             },
             "description": "1.5X Coverage with Superior Washability"
         },
@@ -97,14 +97,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 120.0,
-                "max": 140.0,
-                "avg": 130.0
+                "min": 120,
+                "max": 140,
+                "avg": 130
             },
             "coverage2Coats": {
-                "min": 240.0,
-                "max": 280.0,
-                "avg": 260.0
+                "min": 240,
+                "max": 280,
+                "avg": 260
             },
             "description": "Anti-Fade Smooth Matt with Superior Washability"
         },
@@ -121,14 +121,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 120.0,
-                "max": 140.0,
-                "avg": 130.0
+                "min": 120,
+                "max": 140,
+                "avg": 130
             },
             "coverage2Coats": {
-                "min": 240.0,
-                "max": 280.0,
-                "avg": 260.0
+                "min": 240,
+                "max": 280,
+                "avg": 260
             },
             "description": "Anti-Damp Ultra Matt with Superior Washability"
         },
@@ -145,14 +145,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 125.0,
-                "max": 145.0,
-                "avg": 135.0
+                "min": 125,
+                "max": 145,
+                "avg": 135
             },
             "coverage2Coats": {
-                "min": 250.0,
-                "max": 290.0,
-                "avg": 270.0
+                "min": 250,
+                "max": 290,
+                "avg": 270
             },
             "description": "Rich Glossy Sheen with High Washability"
         },
@@ -169,14 +169,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 130.0,
-                "max": 150.0,
-                "avg": 140.0
+                "min": 130,
+                "max": 150,
+                "avg": 140
             },
             "coverage2Coats": {
-                "min": 260.0,
-                "max": 300.0,
-                "avg": 280.0
+                "min": 260,
+                "max": 300,
+                "avg": 280
             },
             "description": "Stain Resistant Nano Tech with High Washability"
         },
@@ -193,14 +193,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 130.0,
-                "max": 150.0,
-                "avg": 140.0
+                "min": 130,
+                "max": 150,
+                "avg": 140
             },
             "coverage2Coats": {
-                "min": 260.0,
-                "max": 300.0,
-                "avg": 280.0
+                "min": 260,
+                "max": 300,
+                "avg": 280
             },
             "description": "Advanced Shyne with High Washability & Stain Resistance"
         },
@@ -217,14 +217,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 135.0,
-                "max": 155.0,
-                "avg": 145.0
+                "min": 135,
+                "max": 155,
+                "avg": 145
             },
             "coverage2Coats": {
-                "min": 270.0,
-                "max": 310.0,
-                "avg": 290.0
+                "min": 270,
+                "max": 310,
+                "avg": 290
             },
             "description": "Flame Retardancy* + Stain Repellance (Lotus Effect)"
         },
@@ -241,16 +241,16 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 135.0,
-                "max": 155.0,
-                "avg": 145.0
+                "min": 135,
+                "max": 155,
+                "avg": 145
             },
             "coverage2Coats": {
-                "min": 270.0,
-                "max": 310.0,
-                "avg": 290.0
+                "min": 270,
+                "max": 310,
+                "avg": 290
             },
-            "description": "Lotus Effect\u2122 Tech + Flame Retardancy* Shyne Finish"
+            "description": "Lotus Effect™ Tech + Flame Retardancy* Shyne Finish"
         },
         {
             "id": "ap-royale-luxury",
@@ -265,16 +265,16 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L, 200ml",
             "coverage1Coat": {
-                "min": 140.0,
-                "max": 160.0,
-                "avg": 150.0
+                "min": 140,
+                "max": 160,
+                "avg": 150
             },
             "coverage2Coats": {
-                "min": 280.0,
-                "max": 320.0,
-                "avg": 300.0
+                "min": 280,
+                "max": 320,
+                "avg": 300
             },
-            "description": "Teflon\u2122 Surface Protector with Luxury Silk Sheen"
+            "description": "Teflon™ Surface Protector with Luxury Silk Sheen"
         },
         {
             "id": "ap-royale-luxury-shyne",
@@ -289,16 +289,16 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 140.0,
-                "max": 160.0,
-                "avg": 150.0
+                "min": 140,
+                "max": 160,
+                "avg": 150
             },
             "coverage2Coats": {
-                "min": 280.0,
-                "max": 320.0,
-                "avg": 300.0
+                "min": 280,
+                "max": 320,
+                "avg": 300
             },
-            "description": "Teflon\u2122 Enhanced High Gloss Luxury Finish"
+            "description": "Teflon™ Enhanced High Gloss Luxury Finish"
         },
         {
             "id": "ap-royale-glitz",
@@ -313,14 +313,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 145.0,
-                "max": 165.0,
-                "avg": 155.0
+                "min": 145,
+                "max": 165,
+                "avg": 155
             },
             "coverage2Coats": {
-                "min": 290.0,
-                "max": 330.0,
-                "avg": 310.0
+                "min": 290,
+                "max": 330,
+                "avg": 310
             },
             "description": "Ultra Sheen Luxury with Stain Shield & Luxury Fragrance"
         },
@@ -337,14 +337,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20Kg, 10Kg, 5Kg, 2Kg, 1Kg",
             "coverage1Coat": {
-                "min": 50.0,
-                "max": 60.0,
-                "avg": 55.0
+                "min": 50,
+                "max": 60,
+                "avg": 55
             },
             "coverage2Coats": {
-                "min": 100.0,
-                "max": 120.0,
-                "avg": 110.0
+                "min": 100,
+                "max": 120,
+                "avg": 110
             },
             "description": "Latex Weather Protection with Superior Adhesion"
         },
@@ -361,14 +361,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 55.0,
-                "max": 65.0,
-                "avg": 60.0
+                "min": 55,
+                "max": 65,
+                "avg": 60
             },
             "coverage2Coats": {
-                "min": 110.0,
-                "max": 130.0,
-                "avg": 120.0
+                "min": 110,
+                "max": 130,
+                "avg": 120
             },
             "description": "Anti-Fungal Clean Shield with High Water Resistance"
         },
@@ -385,14 +385,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 55.0,
-                "max": 65.0,
-                "avg": 60.0
+                "min": 55,
+                "max": 65,
+                "avg": 60
             },
             "coverage2Coats": {
-                "min": 110.0,
-                "max": 130.0,
-                "avg": 120.0
+                "min": 110,
+                "max": 130,
+                "avg": 120
             },
             "description": "Water-Resistant Exterior Finish with Colour Stay"
         },
@@ -409,14 +409,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 55.0,
-                "max": 65.0,
-                "avg": 60.0
+                "min": 55,
+                "max": 65,
+                "avg": 60
             },
             "coverage2Coats": {
-                "min": 110.0,
-                "max": 130.0,
-                "avg": 120.0
+                "min": 110,
+                "max": 130,
+                "avg": 120
             },
             "description": "Silicon Additives for Superior Water Repellency"
         },
@@ -433,14 +433,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 60.0,
-                "max": 70.0,
-                "avg": 65.0
+                "min": 60,
+                "max": 70,
+                "avg": 65
             },
             "coverage2Coats": {
-                "min": 120.0,
-                "max": 140.0,
-                "avg": 130.0
+                "min": 120,
+                "max": 140,
+                "avg": 130
             },
             "description": "Glossy Sheen with Anti-Algal Outdoor Protection"
         },
@@ -457,14 +457,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 60.0,
-                "max": 70.0,
-                "avg": 65.0
+                "min": 60,
+                "max": 70,
+                "avg": 65
             },
             "coverage2Coats": {
-                "min": 120.0,
-                "max": 140.0,
-                "avg": 130.0
+                "min": 120,
+                "max": 140,
+                "avg": 130
             },
             "description": "Dust Pick-Up Resistance (DPUR) & Anti-Algal Tech"
         },
@@ -481,14 +481,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 60.0,
-                "max": 70.0,
-                "avg": 65.0
+                "min": 60,
+                "max": 70,
+                "avg": 65
             },
             "coverage2Coats": {
-                "min": 120.0,
-                "max": 140.0,
-                "avg": 130.0
+                "min": 120,
+                "max": 140,
+                "avg": 130
             },
             "description": "Advanced DPUR with Bio-Block Algal Defense"
         },
@@ -505,14 +505,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 65.0,
-                "max": 75.0,
-                "avg": 70.0
+                "min": 65,
+                "max": 75,
+                "avg": 70
             },
             "coverage2Coats": {
-                "min": 125.0,
-                "max": 145.0,
-                "avg": 135.0
+                "min": 125,
+                "max": 145,
+                "avg": 135
             },
             "description": "Dust Resistance Combined with Rich Exterior Sheen"
         },
@@ -529,14 +529,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L, 200ml",
             "coverage1Coat": {
-                "min": 75.0,
-                "max": 85.0,
-                "avg": 80.0
+                "min": 75,
+                "max": 85,
+                "avg": 80
             },
             "coverage2Coats": {
-                "min": 150.0,
-                "max": 170.0,
-                "avg": 160.0
+                "min": 150,
+                "max": 170,
+                "avg": 160
             },
             "description": "High Performance Colour Stay & Anti-Algal Formula"
         },
@@ -553,14 +553,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 70.0,
-                "max": 80.0,
-                "avg": 75.0
+                "min": 70,
+                "max": 80,
+                "avg": 75
             },
             "coverage2Coats": {
-                "min": 140.0,
-                "max": 160.0,
-                "avg": 150.0
+                "min": 140,
+                "max": 160,
+                "avg": 150
             },
             "description": "Laminated Waterproofing System with Fibre Reinforcement"
         },
@@ -577,14 +577,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L",
             "coverage1Coat": {
-                "min": 60.0,
-                "max": 70.0,
-                "avg": 65.0
+                "min": 60,
+                "max": 70,
+                "avg": 65
             },
             "coverage2Coats": {
-                "min": 120.0,
-                "max": 140.0,
-                "avg": 130.0
+                "min": 120,
+                "max": 140,
+                "avg": 130
             },
             "description": "Nano-Polymer Heavy Duty Exterior System with Crack Bridging"
         },
@@ -601,20 +601,44 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 100.0,
-                "max": 120.0,
-                "avg": 110.0
+                "min": 100,
+                "max": 120,
+                "avg": 110
             },
             "coverage2Coats": {
-                "min": 200.0,
-                "max": 240.0,
-                "avg": 220.0
+                "min": 200,
+                "max": 240,
+                "avg": 220
             },
             "description": "Economy High Whiteness Water Thinnable Interior Primer"
         },
         {
-            "id": "ap-trucare-interior",
+            "id": "ap-trucare-sparc-ultraa-interior",
             "serial": "3.02",
+            "name": "TruCare Sparc Ultraa Interior Wall Primer",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "3. Interior Primers",
+            "type": "Interior Primers",
+            "surface": "interior",
+            "segment": "Up to 4 Years Warranty With Top Coats",
+            "unit": "Litres",
+            "packs": "20L, 10L, 4L, 1L",
+            "coverage1Coat": {
+                "min": 105,
+                "max": 125,
+                "avg": 115
+            },
+            "coverage2Coats": {
+                "min": 210,
+                "max": 240,
+                "avg": 225
+            },
+            "description": "Water Thinnable Superior Top Coat Adhesion & Good Whiteness"
+        },
+        {
+            "id": "ap-trucare-interior",
+            "serial": "3.03",
             "name": "TruCare Interior",
             "brand": "Asian Paints",
             "brandId": "asian-paints",
@@ -625,20 +649,20 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 110.0,
-                "max": 125.0,
+                "min": 110,
+                "max": 125,
                 "avg": 117.5
             },
             "coverage2Coats": {
-                "min": 215.0,
-                "max": 250.0,
+                "min": 215,
+                "max": 250,
                 "avg": 232.5
             },
             "description": "Water-Thinnable Interior Primer with Strong Adhesion"
         },
         {
             "id": "ap-damp-sheath-interior",
-            "serial": "3.03",
+            "serial": "3.04",
             "name": "Damp Sheath Interior",
             "brand": "Asian Paints",
             "brandId": "asian-paints",
@@ -649,14 +673,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 90.0,
-                "max": 110.0,
-                "avg": 100.0
+                "min": 90,
+                "max": 110,
+                "avg": 100
             },
             "coverage2Coats": {
-                "min": 180.0,
-                "max": 210.0,
-                "avg": 195.0
+                "min": 180,
+                "max": 210,
+                "avg": 195
             },
             "description": "Anti-Damp Breathable Crystalline Primer Barrier"
         },
@@ -673,20 +697,44 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 65.0,
-                "max": 80.0,
+                "min": 65,
+                "max": 80,
                 "avg": 72.5
             },
             "coverage2Coats": {
-                "min": 130.0,
-                "max": 160.0,
-                "avg": 145.0
+                "min": 130,
+                "max": 160,
+                "avg": 145
             },
             "description": "Economy Exterior Wall Primer with High Alkali Resistance"
         },
         {
-            "id": "ap-trucare-exterior",
+            "id": "ap-trucare-sparc-ultraa-exterior",
             "serial": "4.02",
+            "name": "TruCare Sparc Ultraa Exterior Wall Primer",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "4. Exterior Primers",
+            "type": "Exterior Primers",
+            "surface": "exterior",
+            "segment": "Ultraa Exterior Protection",
+            "unit": "Litres",
+            "packs": "20L, 10L, 4L, 1L",
+            "coverage1Coat": {
+                "min": 90,
+                "max": 110,
+                "avg": 100
+            },
+            "coverage2Coats": {
+                "min": 180,
+                "max": 210,
+                "avg": 195
+            },
+            "description": "Water Thinnable Exterior Wall Primer with High Opacity & Resistance"
+        },
+        {
+            "id": "ap-trucare-exterior",
+            "serial": "4.03",
             "name": "TruCare Exterior",
             "brand": "Asian Paints",
             "brandId": "asian-paints",
@@ -697,20 +745,20 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 70.0,
-                "max": 85.0,
+                "min": 70,
+                "max": 85,
                 "avg": 77.5
             },
             "coverage2Coats": {
-                "min": 140.0,
-                "max": 170.0,
-                "avg": 155.0
+                "min": 140,
+                "max": 170,
+                "avg": 155
             },
             "description": "Exterior Wall Primer with Superior Sealing Properties"
         },
         {
             "id": "ap-damp-sheath-exterior",
-            "serial": "4.03",
+            "serial": "4.04",
             "name": "Damp Sheath Exterior",
             "brand": "Asian Paints",
             "brandId": "asian-paints",
@@ -721,20 +769,44 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 60.0,
-                "max": 75.0,
+                "min": 60,
+                "max": 75,
                 "avg": 67.5
             },
             "coverage2Coats": {
-                "min": 120.0,
-                "max": 150.0,
-                "avg": 135.0
+                "min": 120,
+                "max": 150,
+                "avg": 135
             },
             "description": "Deep Penetrating Anti-Efflorescence Exterior Primer"
         },
         {
+            "id": "ap-smartcare-damp-sheath-exterior-advanced",
+            "serial": "4.05",
+            "name": "SmartCare Damp Sheath Exterior Advanced",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "4. Exterior Primers",
+            "type": "Exterior Primers",
+            "surface": "exterior",
+            "segment": "5 Years Waterproofing Warranty",
+            "unit": "Litres",
+            "packs": "20L, 10L, 4L, 1L",
+            "coverage1Coat": {
+                "min": 95,
+                "max": 115,
+                "avg": 105
+            },
+            "coverage2Coats": {
+                "min": 190,
+                "max": 220,
+                "avg": 205
+            },
+            "description": "Waterproofing Primer with Moisture Lock & Crack-Bridging Film"
+        },
+        {
             "id": "ap-damp-proof",
-            "serial": "4.04",
+            "serial": "4.06",
             "name": "Damp Proof",
             "brand": "Asian Paints",
             "brandId": "asian-paints",
@@ -745,20 +817,20 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 10.0,
-                "max": 15.0,
+                "min": 10,
+                "max": 15,
                 "avg": 12.5
             },
             "coverage2Coats": {
-                "min": 20.0,
-                "max": 30.0,
-                "avg": 25.0
+                "min": 20,
+                "max": 30,
+                "avg": 25
             },
             "description": "Reinforced Elastomeric Terrace & Wall Waterproofing"
         },
         {
             "id": "ap-damp-proof-advanced",
-            "serial": "4.05",
+            "serial": "4.07",
             "name": "Damp Proof Advanced",
             "brand": "Asian Paints",
             "brandId": "asian-paints",
@@ -769,13 +841,13 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L",
             "coverage1Coat": {
-                "min": 10.0,
-                "max": 12.0,
-                "avg": 11.0
+                "min": 10,
+                "max": 12,
+                "avg": 11
             },
             "coverage2Coats": {
-                "min": 20.0,
-                "max": 25.0,
+                "min": 20,
+                "max": 25,
                 "avg": 22.5
             },
             "description": "Fiber-Reinforced Hydrostatic Waterproof Membrane"
@@ -793,13 +865,13 @@ const VasuPaintData = {
             "unit": "Kg",
             "packs": "20 KG, 10 KG, 5 KG, 1 KG",
             "coverage1Coat": {
-                "min": 15.0,
-                "max": 18.0,
+                "min": 15,
+                "max": 18,
                 "avg": 16.5
             },
             "coverage2Coats": {
-                "min": 30.0,
-                "max": 35.0,
+                "min": 30,
+                "max": 35,
                 "avg": 32.5
             },
             "description": "Ready-to-Use Paste for Ultra-Smooth Glass Finish"
@@ -817,13 +889,13 @@ const VasuPaintData = {
             "unit": "Kg",
             "packs": "40 KG",
             "coverage1Coat": {
-                "min": 9.0,
-                "max": 11.0,
-                "avg": 10.0
+                "min": 9,
+                "max": 11,
+                "avg": 10
             },
             "coverage2Coats": {
-                "min": 17.0,
-                "max": 22.0,
+                "min": 17,
+                "max": 22,
                 "avg": 19.5
             },
             "description": "White Cement-Based Wall Putty for Superior Adhesion"
@@ -841,13 +913,13 @@ const VasuPaintData = {
             "unit": "Kg",
             "packs": "40 KG",
             "coverage1Coat": {
-                "min": 9.0,
-                "max": 11.0,
-                "avg": 10.0
+                "min": 9,
+                "max": 11,
+                "avg": 10
             },
             "coverage2Coats": {
-                "min": 17.0,
-                "max": 22.0,
+                "min": 17,
+                "max": 22,
                 "avg": 19.5
             },
             "description": "Hydrophobic Polymer Silicon Formula Resisting Efflorescence"
@@ -865,14 +937,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "1L, 200ml",
             "coverage1Coat": {
-                "min": 50.0,
-                "max": 70.0,
-                "avg": 60.0
+                "min": 50,
+                "max": 70,
+                "avg": 60
             },
             "coverage2Coats": {
-                "min": 100.0,
-                "max": 140.0,
-                "avg": 120.0
+                "min": 100,
+                "max": 140,
+                "avg": 120
             },
             "description": "Metallic Glaze Special Effects for Designer Feature Walls"
         },
@@ -889,14 +961,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "1L, 200ml",
             "coverage1Coat": {
-                "min": 40.0,
-                "max": 60.0,
-                "avg": 50.0
+                "min": 40,
+                "max": 60,
+                "avg": 50
             },
             "coverage2Coats": {
-                "min": 80.0,
-                "max": 120.0,
-                "avg": 100.0
+                "min": 80,
+                "max": 120,
+                "avg": 100
             },
             "description": "Water-Based Special Effects Texture for Feature Accent Walls"
         },
@@ -906,21 +978,21 @@ const VasuPaintData = {
             "name": "Apcolite Premium Enamel Gloss",
             "brand": "Asian Paints",
             "brandId": "asian-paints",
-            "categoryGroup": "7. Enamels",
+            "categoryGroup": "7. Enamels & Metal Finishes",
             "type": "Enamels",
             "surface": "both",
             "segment": "Long Lasting Gloss",
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L, 500ml, 200ml",
             "coverage1Coat": {
-                "min": 100.0,
-                "max": 120.0,
-                "avg": 110.0
+                "min": 100,
+                "max": 120,
+                "avg": 110
             },
             "coverage2Coats": {
-                "min": 200.0,
-                "max": 240.0,
-                "avg": 220.0
+                "min": 200,
+                "max": 240,
+                "avg": 220
             },
             "description": "High Gloss Mirror-Like Finish for Wood & Metal Surfaces"
         },
@@ -930,23 +1002,239 @@ const VasuPaintData = {
             "name": "Apcolite Rust Shield PU Enamel",
             "brand": "Asian Paints",
             "brandId": "asian-paints",
-            "categoryGroup": "7. Enamels",
+            "categoryGroup": "7. Enamels & Metal Finishes",
             "type": "Enamels",
             "surface": "both",
             "segment": "PU Anti-Rust",
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L, 500ml, 200ml",
             "coverage1Coat": {
-                "min": 90.0,
-                "max": 110.0,
-                "avg": 100.0
+                "min": 90,
+                "max": 110,
+                "avg": 100
             },
             "coverage2Coats": {
-                "min": 180.0,
-                "max": 220.0,
-                "avg": 200.0
+                "min": 180,
+                "max": 220,
+                "avg": 200
             },
             "description": "Anti-Rust PU Enamel with Direct-to-Metal Protection"
+        },
+        {
+            "id": "ap-woodtech-emporio-pu",
+            "serial": "7.03",
+            "name": "WoodTech Emporio PU",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "7. Enamels & Wood Finishes",
+            "type": "Wood Finishes",
+            "surface": "both",
+            "segment": "Super Luxury Wood Finish",
+            "unit": "Litres",
+            "packs": "4L, 1L",
+            "coverage1Coat": {
+                "min": 80,
+                "max": 90,
+                "avg": 85
+            },
+            "coverage2Coats": {
+                "min": 140,
+                "max": 160,
+                "avg": 150
+            },
+            "description": "Super Luxury Italian PU Finish with High Scratch Resistance"
+        },
+        {
+            "id": "ap-trucare-wood-primer",
+            "serial": "7.04",
+            "name": "TruCare Wood Primer",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "7. Enamels & Metal Finishes",
+            "type": "Interior Primers",
+            "surface": "both",
+            "segment": "Superior Wood Adhesion",
+            "unit": "Litres",
+            "packs": "4L, 1L, 500ml, 200ml",
+            "coverage1Coat": {
+                "min": 90,
+                "max": 110,
+                "avg": 100
+            },
+            "coverage2Coats": {
+                "min": 170,
+                "max": 200,
+                "avg": 185
+            },
+            "description": "Solvent Thinnable High Adhesion Sealer for Wood & Plywood"
+        },
+        {
+            "id": "ap-trucare-yellow-metal-primer",
+            "serial": "7.05",
+            "name": "TruCare Yellow Metal PU Primer",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "7. Enamels & Metal Finishes",
+            "type": "Metal Primers",
+            "surface": "both",
+            "segment": "Anti-Rust Protection",
+            "unit": "Litres",
+            "packs": "4L, 1L, 500ml, 200ml",
+            "coverage1Coat": {
+                "min": 85,
+                "max": 100,
+                "avg": 92.5
+            },
+            "coverage2Coats": {
+                "min": 160,
+                "max": 190,
+                "avg": 175
+            },
+            "description": "Zinc Chrome / PU Primer for Galvanized Iron & Metal Substrates"
+        },
+        {
+            "id": "ap-smartcare-vitalia-neo",
+            "serial": "8.01",
+            "name": "SmartCare Vitalia Neo",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "8. Waterproofing & Specialty",
+            "type": "Waterproofing",
+            "surface": "both",
+            "segment": "Integral Moisture Resistance",
+            "unit": "Litres",
+            "packs": "5L, 1L, 500ml, 200ml",
+            "coverage1Coat": {
+                "min": 100,
+                "max": 200,
+                "avg": 150
+            },
+            "coverage2Coats": {
+                "min": 100,
+                "max": 200,
+                "avg": 150
+            },
+            "description": "Integral Liquid Waterproofing Compound for Concrete & Plaster"
+        },
+        {
+            "id": "ap-smartcare-repair-polymer",
+            "serial": "8.02",
+            "name": "Repair Polymer SBR",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "8. Waterproofing & Specialty",
+            "type": "Waterproofing",
+            "surface": "both",
+            "segment": "High Bond Strength",
+            "unit": "Litres",
+            "packs": "5L, 1L, 500ml, 200ml",
+            "coverage1Coat": {
+                "min": 70,
+                "max": 80,
+                "avg": 75
+            },
+            "coverage2Coats": {
+                "min": 140,
+                "max": 160,
+                "avg": 150
+            },
+            "description": "Styrene Butadiene Rubber (SBR) Bonding & Waterproof Repair Slurry"
+        },
+        {
+            "id": "ap-smartcare-crack-seal",
+            "serial": "8.03",
+            "name": "SmartCare Crack Seal",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "8. Waterproofing & Specialty",
+            "type": "Waterproofing",
+            "surface": "both",
+            "segment": "Crack Protection",
+            "unit": "Kg",
+            "packs": "900g, 360g",
+            "coverage1Coat": {
+                "min": 40,
+                "max": 45,
+                "avg": 42.5
+            },
+            "coverage2Coats": {
+                "min": 40,
+                "max": 45,
+                "avg": 42.5
+            },
+            "description": "Fibre Reinforced Crack Filler for Plaster Cracks up to 3mm"
+        },
+        {
+            "id": "ap-smartcare-advanced-crack-seal",
+            "serial": "8.04",
+            "name": "SmartCare Advanced Crack Seal",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "8. Waterproofing & Specialty",
+            "type": "Waterproofing",
+            "surface": "both",
+            "segment": "Crack Bridging Guarantee",
+            "unit": "Kg",
+            "packs": "900g, 360g",
+            "coverage1Coat": {
+                "min": 30,
+                "max": 35,
+                "avg": 32.5
+            },
+            "coverage2Coats": {
+                "min": 30,
+                "max": 35,
+                "avg": 32.5
+            },
+            "description": "Advanced Flexible Crack Bridging Compound (up to 5mm)"
+        },
+        {
+            "id": "ap-smartcare-damp-block-2k",
+            "serial": "8.05",
+            "name": "SmartCare Damp Block 2K",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "8. Waterproofing & Specialty",
+            "type": "Waterproofing",
+            "surface": "both",
+            "segment": "Severe Damp Protection",
+            "unit": "Kg",
+            "packs": "15 Kg, 3 Kg",
+            "coverage1Coat": {
+                "min": 8,
+                "max": 9,
+                "avg": 8.5
+            },
+            "coverage2Coats": {
+                "min": 15,
+                "max": 17,
+                "avg": 16
+            },
+            "description": "2-Component Polymer Modified Flexible Waterproofing Coating"
+        },
+        {
+            "id": "ap-smartcare-epoxy-tri-block",
+            "serial": "8.06",
+            "name": "SmartCare Epoxy Tri Block",
+            "brand": "Asian Paints",
+            "brandId": "asian-paints",
+            "categoryGroup": "8. Waterproofing & Specialty",
+            "type": "Waterproofing",
+            "surface": "both",
+            "segment": "Potable Water Tank Certified",
+            "unit": "Kg",
+            "packs": "9 Kg, 4.5 Kg",
+            "coverage1Coat": {
+                "min": 30,
+                "max": 35,
+                "avg": 32.5
+            },
+            "coverage2Coats": {
+                "min": 60,
+                "max": 70,
+                "avg": 65
+            },
+            "description": "Anti-Microbial 2-Pack Heavy Mineral Water Tank Coating"
         },
         {
             "id": "kn-beauty-little-master",
@@ -961,14 +1249,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 100.0,
-                "max": 120.0,
-                "avg": 110.0
+                "min": 100,
+                "max": 120,
+                "avg": 110
             },
             "coverage2Coats": {
-                "min": 200.0,
-                "max": 240.0,
-                "avg": 220.0
+                "min": 200,
+                "max": 240,
+                "avg": 220
             },
             "description": "Value Emulsion with Rich Matt & Anti-Bacterial Shield"
         },
@@ -985,14 +1273,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 105.0,
-                "max": 120.0,
+                "min": 105,
+                "max": 120,
                 "avg": 112.5
             },
             "coverage2Coats": {
-                "min": 210.0,
-                "max": 240.0,
-                "avg": 225.0
+                "min": 210,
+                "max": 240,
+                "avg": 225
             },
             "description": "Smooth Interior Finish with Higher Hiding & Brightness"
         },
@@ -1009,14 +1297,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 115.0,
-                "max": 130.0,
+                "min": 115,
+                "max": 130,
                 "avg": 122.5
             },
             "coverage2Coats": {
-                "min": 230.0,
-                "max": 260.0,
-                "avg": 245.0
+                "min": 230,
+                "max": 260,
+                "avg": 245
             },
             "description": "Bright Finish + Washable Interior Acrylic Emulsion"
         },
@@ -1033,14 +1321,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 120.0,
-                "max": 140.0,
-                "avg": 130.0
+                "min": 120,
+                "max": 140,
+                "avg": 130
             },
             "coverage2Coats": {
-                "min": 240.0,
-                "max": 280.0,
-                "avg": 260.0
+                "min": 240,
+                "max": 280,
+                "avg": 260
             },
             "description": "Classic Soft Sheen Emulsion with High Washability"
         },
@@ -1057,14 +1345,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 135.0,
-                "max": 150.0,
+                "min": 135,
+                "max": 150,
                 "avg": 142.5
             },
             "coverage2Coats": {
-                "min": 260.0,
-                "max": 300.0,
-                "avg": 280.0
+                "min": 260,
+                "max": 300,
+                "avg": 280
             },
             "description": "Superior Washable Premium Emulsion with Stain Resistance"
         },
@@ -1081,14 +1369,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 140.0,
-                "max": 160.0,
-                "avg": 150.0
+                "min": 140,
+                "max": 160,
+                "avg": 150
             },
             "coverage2Coats": {
-                "min": 280.0,
-                "max": 320.0,
-                "avg": 300.0
+                "min": 280,
+                "max": 320,
+                "avg": 300
             },
             "description": "Ultra Luxury High-Definition Silk Sheen Emulsion"
         },
@@ -1105,14 +1393,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 140.0,
-                "max": 160.0,
-                "avg": 150.0
+                "min": 140,
+                "max": 160,
+                "avg": 150
             },
             "coverage2Coats": {
-                "min": 280.0,
-                "max": 320.0,
-                "avg": 300.0
+                "min": 280,
+                "max": 320,
+                "avg": 300
             },
             "description": "Matte Luxury Architectural Silk Finish with Micro-Air Purification"
         },
@@ -1129,14 +1417,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 50.0,
-                "max": 60.0,
-                "avg": 55.0
+                "min": 50,
+                "max": 60,
+                "avg": 55
             },
             "coverage2Coats": {
-                "min": 100.0,
-                "max": 120.0,
-                "avg": 110.0
+                "min": 100,
+                "max": 120,
+                "avg": 110
             },
             "description": "Weatherproof Exterior Emulsion with Anti-Algal Protection"
         },
@@ -1153,14 +1441,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 55.0,
-                "max": 65.0,
-                "avg": 60.0
+                "min": 55,
+                "max": 65,
+                "avg": 60
             },
             "coverage2Coats": {
-                "min": 110.0,
-                "max": 130.0,
-                "avg": 120.0
+                "min": 110,
+                "max": 130,
+                "avg": 120
             },
             "description": "Enhanced Anti-Fungal Exterior Coat with Clean Shield"
         },
@@ -1177,14 +1465,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 65.0,
-                "max": 75.0,
-                "avg": 70.0
+                "min": 65,
+                "max": 75,
+                "avg": 70
             },
             "coverage2Coats": {
-                "min": 130.0,
-                "max": 150.0,
-                "avg": 140.0
+                "min": 130,
+                "max": 150,
+                "avg": 140
             },
             "description": "All-Weather Long Life Acrylic Exterior Emulsion"
         },
@@ -1201,14 +1489,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 75.0,
-                "max": 85.0,
-                "avg": 80.0
+                "min": 75,
+                "max": 85,
+                "avg": 80
             },
             "coverage2Coats": {
-                "min": 150.0,
-                "max": 170.0,
-                "avg": 160.0
+                "min": 150,
+                "max": 170,
+                "avg": 160
             },
             "description": "Total Weather Defense with Heat Guard & Dirt Pick-up Resistance"
         },
@@ -1225,14 +1513,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 60.0,
-                "max": 70.0,
-                "avg": 65.0
+                "min": 60,
+                "max": 70,
+                "avg": 65
             },
             "coverage2Coats": {
-                "min": 120.0,
-                "max": 140.0,
-                "avg": 130.0
+                "min": 120,
+                "max": 140,
+                "avg": 130
             },
             "description": "Elastomeric Stretch & Sheen with Crushed Mica Marble Barrier"
         },
@@ -1249,14 +1537,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 105.0,
-                "max": 125.0,
-                "avg": 115.0
+                "min": 105,
+                "max": 125,
+                "avg": 115
             },
             "coverage2Coats": {
-                "min": 210.0,
-                "max": 250.0,
-                "avg": 230.0
+                "min": 210,
+                "max": 250,
+                "avg": 230
             },
             "description": "High-Adhesion Water-Based Interior Undercoat"
         },
@@ -1273,14 +1561,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 70.0,
-                "max": 80.0,
-                "avg": 75.0
+                "min": 70,
+                "max": 80,
+                "avg": 75
             },
             "coverage2Coats": {
-                "min": 140.0,
-                "max": 160.0,
-                "avg": 150.0
+                "min": 140,
+                "max": 160,
+                "avg": 150
             },
             "description": "Alkali-Resistant Exterior Masonry Primer"
         },
@@ -1297,14 +1585,14 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L",
             "coverage1Coat": {
-                "min": 15.0,
-                "max": 20.0,
+                "min": 15,
+                "max": 20,
                 "avg": 17.5
             },
             "coverage2Coats": {
-                "min": 30.0,
-                "max": 40.0,
-                "avg": 35.0
+                "min": 30,
+                "max": 40,
+                "avg": 35
             },
             "description": "Elastomeric Waterproof Dampproof Barrier for Walls & Slabs"
         },
@@ -1321,326 +1609,38 @@ const VasuPaintData = {
             "unit": "Litres",
             "packs": "20L, 10L, 4L, 1L, 500ml, 200ml, 100ml, 50ml",
             "coverage1Coat": {
-                "min": 100.0,
-                "max": 120.0,
-                "avg": 110.0
+                "min": 100,
+                "max": 120,
+                "avg": 110
             },
             "coverage2Coats": {
-                "min": 200.0,
-                "max": 240.0,
-                "avg": 220.0
+                "min": 200,
+                "max": 240,
+                "avg": 220
             },
             "description": "High Gloss Protective Enamel for Wood & Metal Structures"
         },
         {
-            "id": "ap-smartcare-advanced-crack-seal",
-            "serial": "8.01",
-            "name": "SmartCare Advanced Crack Seal",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "8. Waterproofing & Specialty",
-            "type": "Waterproofing",
-            "surface": "both",
-            "segment": "Crack Bridging Guarantee",
-            "unit": "Kg",
-            "packs": "900g, 360g",
-            "coverage1Coat": {
-                "min": 30.0,
-                "max": 35.0,
-                "avg": 32.5
-            },
-            "coverage2Coats": {
-                "min": 30.0,
-                "max": 35.0,
-                "avg": 32.5
-            },
-            "description": "Advanced Flexible Crack Bridging Compound (up to 5mm)"
-        },
-        {
-            "id": "ap-smartcare-crack-seal",
-            "serial": "8.02",
-            "name": "SmartCare Crack Seal",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "8. Waterproofing & Specialty",
-            "type": "Waterproofing",
-            "surface": "both",
-            "segment": "Crack Protection",
-            "unit": "Kg",
-            "packs": "900g, 360g",
-            "coverage1Coat": {
-                "min": 40.0,
-                "max": 45.0,
-                "avg": 42.5
-            },
-            "coverage2Coats": {
-                "min": 40.0,
-                "max": 45.0,
-                "avg": 42.5
-            },
-            "description": "Fibre Reinforced Crack Filler for Plaster Cracks up to 3mm"
-        },
-        {
-            "id": "ap-smartcare-vitalia-neo",
-            "serial": "8.03",
-            "name": "SmartCare Vitalia Neo",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "8. Waterproofing & Specialty",
-            "type": "Waterproofing",
-            "surface": "both",
-            "segment": "Integral Moisture Resistance",
-            "unit": "Litres",
-            "packs": "5L, 1L, 500ml, 200ml",
-            "coverage1Coat": {
-                "min": 100.0,
-                "max": 200.0,
-                "avg": 150.0
-            },
-            "coverage2Coats": {
-                "min": 100.0,
-                "max": 200.0,
-                "avg": 150.0
-            },
-            "description": "Integral Liquid Waterproofing Compound for Concrete & Plaster"
-        },
-        {
-            "id": "ap-smartcare-damp-block-2k",
-            "serial": "8.04",
-            "name": "SmartCare Damp Block 2K",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "8. Waterproofing & Specialty",
-            "type": "Waterproofing",
-            "surface": "both",
-            "segment": "Severe Damp Protection",
-            "unit": "Kg",
-            "packs": "15 Kg, 3 Kg",
-            "coverage1Coat": {
-                "min": 8.0,
-                "max": 9.0,
-                "avg": 8.5
-            },
-            "coverage2Coats": {
-                "min": 15.0,
-                "max": 17.0,
-                "avg": 16.0
-            },
-            "description": "2-Component Polymer Modified Flexible Waterproofing Coating"
-        },
-        {
-            "id": "ap-smartcare-epoxy-tri-block",
-            "serial": "8.05",
-            "name": "SmartCare Epoxy Tri Block",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "8. Waterproofing & Specialty",
-            "type": "Waterproofing",
-            "surface": "both",
-            "segment": "Potable Water Tank Certified",
-            "unit": "Kg",
-            "packs": "9 Kg, 4.5 Kg",
-            "coverage1Coat": {
-                "min": 30.0,
-                "max": 35.0,
-                "avg": 32.5
-            },
-            "coverage2Coats": {
-                "min": 60.0,
-                "max": 70.0,
-                "avg": 65.0
-            },
-            "description": "Anti-Microbial 2-Pack Heavy Mineral Water Tank Coating"
-        },
-        {
-            "id": "ap-smartcare-repair-polymer",
-            "serial": "8.06",
-            "name": "Repair Polymer SBR",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "8. Waterproofing & Specialty",
-            "type": "Waterproofing",
-            "surface": "both",
-            "segment": "High Bond Strength",
-            "unit": "Litres",
-            "packs": "5L, 1L, 500ml, 200ml",
-            "coverage1Coat": {
-                "min": 70.0,
-                "max": 80.0,
-                "avg": 75.0
-            },
-            "coverage2Coats": {
-                "min": 140.0,
-                "max": 160.0,
-                "avg": 150.0
-            },
-            "description": "Styrene Butadiene Rubber (SBR) Bonding & Waterproof Repair Slurry"
-        },
-        {
-            "id": "ap-woodtech-emporio-pu",
-            "serial": "7.03",
-            "name": "WoodTech Emporio PU",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "7. Enamels & Wood Finishes",
-            "type": "Wood Finishes",
-            "surface": "both",
-            "segment": "Super Luxury Wood Finish",
-            "unit": "Litres",
-            "packs": "4L, 1L",
-            "coverage1Coat": {
-                "min": 80.0,
-                "max": 90.0,
-                "avg": 85.0
-            },
-            "coverage2Coats": {
-                "min": 140.0,
-                "max": 160.0,
-                "avg": 150.0
-            },
-            "description": "Super Luxury Italian PU Finish with High Scratch Resistance"
-        },
-        {
-            "id": "ap-trucare-wood-primer",
-            "serial": "3.04",
-            "name": "TruCare Wood Primer",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "3. Interior Primers",
-            "type": "Interior Primers",
-            "surface": "both",
-            "segment": "Superior Wood Adhesion",
-            "unit": "Litres",
-            "packs": "4L, 1L, 500ml, 200ml",
-            "coverage1Coat": {
-                "min": 90.0,
-                "max": 110.0,
-                "avg": 100.0
-            },
-            "coverage2Coats": {
-                "min": 170.0,
-                "max": 200.0,
-                "avg": 185.0
-            },
-            "description": "Solvent Thinnable High Adhesion Sealer for Wood & Plywood"
-        },
-        {
-            "id": "ap-trucare-yellow-metal-primer",
-            "serial": "7.04",
-            "name": "TruCare Yellow Metal PU Primer",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "7. Enamels & Metal Finishes",
-            "type": "Metal Primers",
-            "surface": "both",
-            "segment": "Anti-Rust Protection",
-            "unit": "Litres",
-            "packs": "4L, 1L, 500ml, 200ml",
-            "coverage1Coat": {
-                "min": 85.0,
-                "max": 100.0,
-                "avg": 92.5
-            },
-            "coverage2Coats": {
-                "min": 160.0,
-                "max": 190.0,
-                "avg": 175.0
-            },
-            "description": "Zinc Chrome / PU Primer for Galvanized Iron & Metal Substrates"
-        },
-        {
-            "id": "ap-smartcare-damp-sheath-exterior-advanced",
-            "serial": "4.06",
-            "name": "SmartCare Damp Sheath Exterior Advanced",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "4. Exterior Primers",
-            "type": "Exterior Primers",
-            "surface": "exterior",
-            "segment": "5 Years Waterproofing Warranty",
-            "unit": "Litres",
-            "packs": "20L, 10L, 4L, 1L",
-            "coverage1Coat": {
-                "min": 95.0,
-                "max": 115.0,
-                "avg": 105.0
-            },
-            "coverage2Coats": {
-                "min": 190.0,
-                "max": 220.0,
-                "avg": 205.0
-            },
-            "description": "Waterproofing Primer with Moisture Lock & Crack-Bridging Film"
-        },
-        {
-            "id": "ap-trucare-sparc-ultraa-interior",
-            "serial": "3.05",
-            "name": "TruCare Sparc Ultraa Interior Wall Primer",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "3. Interior Primers",
-            "type": "Interior Primers",
-            "surface": "interior",
-            "segment": "Up to 4 Years Warranty With Top Coats",
-            "unit": "Litres",
-            "packs": "20L, 10L, 4L, 1L",
-            "coverage1Coat": {
-                "min": 105.0,
-                "max": 125.0,
-                "avg": 115.0
-            },
-            "coverage2Coats": {
-                "min": 210.0,
-                "max": 240.0,
-                "avg": 225.0
-            },
-            "description": "Water Thinnable Superior Top Coat Adhesion & Good Whiteness"
-        },
-        {
-            "id": "ap-trucare-sparc-ultraa-exterior",
-            "serial": "4.07",
-            "name": "TruCare Sparc Ultraa Exterior Wall Primer",
-            "brand": "Asian Paints",
-            "brandId": "asian-paints",
-            "categoryGroup": "4. Exterior Primers",
-            "type": "Exterior Primers",
-            "surface": "exterior",
-            "segment": "Ultraa Exterior Protection",
-            "unit": "Litres",
-            "packs": "20L, 10L, 4L, 1L",
-            "coverage1Coat": {
-                "min": 90.0,
-                "max": 110.0,
-                "avg": 100.0
-            },
-            "coverage2Coats": {
-                "min": 180.0,
-                "max": 210.0,
-                "avg": 195.0
-            },
-            "description": "Water Thinnable Exterior Wall Primer with High Opacity & Resistance"
-        },
-        {
             "id": "kn-wood-primer",
-            "serial": "N3.02",
+            "serial": "N4.02",
             "name": "Nerolac Wood Primer",
             "brand": "Kansai Nerolac",
             "brandId": "kansai-nerolac",
-            "categoryGroup": "Nerolac - Primers",
+            "categoryGroup": "Nerolac - Enamels & Metal Finishes",
             "type": "Wood Primers",
             "surface": "both",
             "segment": "Wood Sealing Barrier",
             "unit": "Litres",
             "packs": "4L, 1L, 500ml",
             "coverage1Coat": {
-                "min": 90.0,
-                "max": 105.0,
+                "min": 90,
+                "max": 105,
                 "avg": 97.5
             },
             "coverage2Coats": {
-                "min": 170.0,
-                "max": 200.0,
-                "avg": 185.0
+                "min": 170,
+                "max": 200,
+                "avg": 185
             },
             "description": "Solvent Thinnable Deep Penetrating Primer for Natural Wood & Plywood"
         }
