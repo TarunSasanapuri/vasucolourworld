@@ -40,6 +40,7 @@
       if (filter === 'primers') return p.categoryKey === 'interior-primer' || p.categoryKey === 'exterior-primer' || p.categoryKey === 'primers';
       if (filter === 'interior-primer') return p.categoryKey === 'interior-primer';
       if (filter === 'exterior-primer') return p.categoryKey === 'exterior-primer';
+      if (filter === 'waterproofing') return p.categoryKey === 'waterproofing';
       if (filter === 'putty') return p.categoryKey === 'putty';
       if (filter === 'enamels') return p.categoryKey === 'enamels';
       if (filter === 'texture') return p.categoryKey === 'texture';
