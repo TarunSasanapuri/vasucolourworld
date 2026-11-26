@@ -44,6 +44,7 @@
       if (filter === 'putty') return p.categoryKey === 'putty';
       if (filter === 'enamels') return p.categoryKey === 'enamels';
       if (filter === 'texture') return p.categoryKey === 'texture';
+      if (filter === 'tools') return p.categoryKey === 'tools';
       return p.categoryKey === filter;
     });
 
