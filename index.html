@@ -31,6 +31,7 @@
       <a href="#brands">Brands</a>
       <a href="#shades">Store Paints</a>
       <a href="#painters">Painters</a>
+      <a href="#testimonials">Testimonials</a>
       <a href="#why">Why us</a>
       <a href="#visit">Visit</a>
     </nav>
@@ -402,16 +403,17 @@
 
         <!-- Filter Chips for Brand & Serial Categories -->
         <div class="prod-filter-row" id="prod-filter-chips">
-          <button type="button" class="prod-chip active" data-filter="all">All Products (68)</button>
-          <button type="button" class="prod-chip" data-filter="asian-paints">Asian Paints (51)</button>
+          <button type="button" class="prod-chip active" data-filter="all">All Products (82)</button>
+          <button type="button" class="prod-chip" data-filter="asian-paints">Asian Paints (65)</button>
           <button type="button" class="prod-chip" data-filter="nerolac">Kansai Nerolac (17)</button>
           <button type="button" class="prod-chip" data-filter="interior">Interior Emulsions (20)</button>
           <button type="button" class="prod-chip" data-filter="exterior">Exterior Emulsions (16)</button>
-          <button type="button" class="prod-chip" data-filter="primers">Primers (14)</button>
+          <button type="button" class="prod-chip" data-filter="primers">Primers (15)</button>
           <button type="button" class="prod-chip" data-filter="waterproofing">Waterproofing &amp; Repair (6)</button>
-          <button type="button" class="prod-chip" data-filter="putty">Putty (3)</button>
-          <button type="button" class="prod-chip" data-filter="enamels">Enamels &amp; Wood (7)</button>
-          <button type="button" class="prod-chip" data-filter="texture">Texture &amp; Glitters (2)</button>
+          <button type="button" class="prod-chip" data-filter="putty">Putty (4)</button>
+          <button type="button" class="prod-chip" data-filter="enamels">Enamels &amp; Wood (9)</button>
+          <button type="button" class="prod-chip" data-filter="texture">Texture &amp; Glitters (6)</button>
+          <button type="button" class="prod-chip" data-filter="tools">Tools &amp; Rollers (6)</button>
         </div>
 
         <!-- Horizontal Side-Scrolling Products Row -->
@@ -445,6 +447,34 @@
         </div>
         <div class="pgrid-scroll-wrap">
           <div class="pgrid" id="pgrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER TESTIMONIALS (16:9 Customer Homes & Transformation Stories) -->
+    <section id="testimonials" class="testimonials-section brands">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="sec-badge">Customer Stories</div>
+            <h2>Customer Homes &amp; Stories</h2>
+            <p class="lead">Real homes painted with Vasu Colour World Paints. Tap below to watch their transformation reel on Instagram.</p>
+          </div>
+          <div class="carousel-nav" id="testimonials-nav" aria-label="Scroll customer stories">
+            <button id="t-prev" class="c-btn" type="button" aria-label="Previous customer story" title="Scroll left">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <path d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button id="t-next" class="c-btn" type="button" aria-label="Next customer story" title="Scroll right">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <path d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="testimonials-scroll-wrap">
+          <div class="testimonials-grid" id="testimonials-grid"></div>
         </div>
       </div>
     </section>
@@ -554,6 +584,9 @@
 
   <!-- 7b. Hero Auto-Scrolling In-Store Offers & Deals -->
   <script src="js/deals.js"></script>
+
+  <!-- 7c. Customer Testimonials (16:9 Photos & Instagram Reels) -->
+  <script src="js/testimonials.js"></script>
 
   <!-- 8. Main Application Orchestrator -->
   <script src="js/main.js"></script>
