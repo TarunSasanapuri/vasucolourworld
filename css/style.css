@@ -1876,6 +1876,170 @@ h2 {
 }
 
 /* --------------------------------------------------------------------------
+   Customer Testimonials (16:9 Aspect Ratio Cards + Instagram Reel Redirection)
+   -------------------------------------------------------------------------- */
+#testimonials {
+  background: var(--hero-bg);
+  color: var(--hero-ink);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+#testimonials h2 {
+  color: var(--hero-ink);
+}
+
+#testimonials .lead {
+  color: var(--hero-mut);
+}
+
+.testimonials-scroll-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.testimonials-grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  background: #140340;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2);
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+.testimonials-grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.testimonials-grid::-webkit-scrollbar-track {
+  background: #140340;
+  border-radius: 999px;
+}
+
+.testimonials-grid::-webkit-scrollbar-thumb {
+  background: #140340;
+  border-radius: 999px;
+}
+
+.testimonials-grid::-webkit-scrollbar-thumb:hover {
+  background: var(--p);
+}
+
+/* 16:9 Testimonial Card */
+.testimonial-card {
+  flex: 0 0 calc((100% - 40px) / 3);
+  min-width: 320px;
+  max-width: 440px;
+  scroll-snap-align: start;
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+  background: #09031c;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+  cursor: pointer;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+  border-color: rgba(220, 39, 67, 0.55);
+}
+
+/* Container maintaining exact 16:9 ratio */
+.testimonial-aspect-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  display: block;
+}
+
+/* 16:9 Customer Image */
+.testimonial-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.testimonial-card:hover .testimonial-img {
+  transform: scale(1.03);
+}
+
+/* Subtle dark gradient overlay at bottom of the image so the button pops cleanly */
+.testimonial-aspect-box::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 48%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Instagram Reel Overlay Button - Positioned on Top of the Image */
+.insta-reel-btn {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #ffffff !important;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(220, 39, 67, 0.4);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, filter 0.2s ease;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.insta-reel-btn:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 22px rgba(220, 39, 67, 0.65), 0 3px 8px rgba(0, 0, 0, 0.5);
+  filter: brightness(1.08);
+}
+
+.insta-reel-btn:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.insta-reel-btn .insta-icon {
+  flex-shrink: 0;
+  display: block;
+}
+
+.insta-reel-btn .external-arrow {
+  flex-shrink: 0;
+  display: block;
+  opacity: 0.9;
+  transition: transform 0.2s ease;
+}
+
+.insta-reel-btn:hover .external-arrow {
+  transform: translate(1px, -1px);
+}
+
+/* --------------------------------------------------------------------------
    Why Buy From Us Section
    -------------------------------------------------------------------------- */
 #why {
@@ -2261,6 +2425,34 @@ footer {
     padding: 20px 16px;
     background: #ffffff;
     border: 1px solid #e2e8f0;
+  }
+
+  .testimonials-grid {
+    gap: 14px;
+    padding: 16px 14px 20px;
+    border-radius: 14px;
+    background: #140340;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .testimonial-card {
+    flex: 0 0 calc(100vw - 48px);
+    min-width: 280px;
+    max-width: 360px;
+    border-radius: 12px;
+  }
+
+  .insta-reel-btn {
+    bottom: 10px;
+    right: 10px;
+    padding: 7px 13px;
+    font-size: 12.5px;
+    gap: 5px;
+  }
+
+  .insta-reel-btn svg {
+    width: 14px;
+    height: 14px;
   }
 
   .why {
