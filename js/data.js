@@ -524,8 +524,26 @@ window.VasuData = {
       "tag": "TruCare"
     },
     {
-      "id": "ap-damp-sheath-interior",
+      "id": "ap-trucare-interior-primer-advanced",
       "serial": "3.04",
+      "name": "TruCare Interior Wall Primer Advanced",
+      "brand": "Asian Paints",
+      "categoryGroup": "3. Interior Primers",
+      "categoryKey": "interior-primer",
+      "finish": "Water Thinnable Interior Wall Primer with Superior Hiding & Superior Whiteness",
+      "warranty": "Superior Whiteness & Hiding",
+      "coverage1Coat": "115 – 130 sq. ft. / L",
+      "coverage2Coats": "220 – 260 sq. ft. / L",
+      "coverage": "220 – 260 sq. ft. / L (2 coats)",
+      "packs": "20L, 10L, 4L, 1L",
+      "image": "assets/images/products/ap-trucare-interior-primer-advanced.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#dc2626",
+      "tag": "Advanced Primer"
+    },
+    {
+      "id": "ap-damp-sheath-interior",
+      "serial": "3.05",
       "name": "Damp Sheath Interior",
       "brand": "Asian Paints",
       "categoryGroup": "3. Interior Primers",
@@ -722,6 +740,24 @@ window.VasuData = {
       "tag": "Waterproof"
     },
     {
+      "id": "ap-apex-createx-texture",
+      "serial": "5.04",
+      "name": "Apex Createx Waterproof Texture",
+      "brand": "Asian Paints",
+      "categoryGroup": "5. Putty",
+      "categoryKey": "putty",
+      "finish": "Flexible Waterproof Textured Finish with Anti-Algal & Crack Resistance",
+      "warranty": "5 Years Waterproofing Warranty",
+      "coverage1Coat": "3.5 – 4.5 sq. ft. / kg",
+      "coverage2Coats": "3.5 – 4.5 sq. ft. / kg",
+      "coverage": "3.5 – 4.5 sq. ft. / kg",
+      "packs": "25 KG, 5 KG",
+      "image": "assets/images/products/ap-apex-createx-texture.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#1d4ed8",
+      "tag": "Apex Texture"
+    },
+    {
       "id": "ap-royale-play-metallics",
       "serial": "6.01",
       "name": "Royale Play Metallics",
@@ -756,6 +792,78 @@ window.VasuData = {
       "hasUploadedPhoto": true,
       "colorAccent": "#7c3aed",
       "tag": "Special Effects"
+    },
+    {
+      "id": "ap-royale-gold",
+      "serial": "6.03",
+      "name": "Royale Gold",
+      "brand": "Asian Paints",
+      "categoryGroup": "6. Texture & Glitters",
+      "categoryKey": "texture",
+      "finish": "Super Luxury Metallic Gold Emulsion with Rich Lustre & Shyne",
+      "warranty": "Luxury Gold Finish",
+      "coverage1Coat": "60 – 70 sq. ft. / L",
+      "coverage2Coats": "120 – 140 sq. ft. / L",
+      "coverage": "120 – 140 sq. ft. / L (2 coats)",
+      "packs": "1L, 200ml",
+      "image": "assets/images/products/ap-royale-gold.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#ca8a04",
+      "tag": "Royale Gold"
+    },
+    {
+      "id": "ap-apex-ultima-gold",
+      "serial": "6.04",
+      "name": "Apex Ultima Metallics Gold",
+      "brand": "Asian Paints",
+      "categoryGroup": "6. Texture & Glitters",
+      "categoryKey": "texture",
+      "finish": "High Metallic Sheen with Colour Stay Pro & UV Anti-Dust Technology",
+      "warranty": "5 Years Warranty",
+      "coverage1Coat": "55 – 65 sq. ft. / L",
+      "coverage2Coats": "100 – 120 sq. ft. / L",
+      "coverage": "100 – 120 sq. ft. / L (2 coats)",
+      "packs": "1L, 200ml",
+      "image": "assets/images/products/ap-apex-ultima-gold.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#d97706",
+      "tag": "Ultima Gold"
+    },
+    {
+      "id": "ap-woodtech-aquadur-pu-interior",
+      "serial": "6.05",
+      "name": "WoodTech Aquadur PU Interior",
+      "brand": "Asian Paints",
+      "categoryGroup": "6. Texture & Glitters",
+      "categoryKey": "texture",
+      "finish": "Eco-Friendly Water-Based Luxury PU Wood Finish with Green Assure",
+      "warranty": "Luxury Water-Based PU",
+      "coverage1Coat": "90 – 100 sq. ft. / L",
+      "coverage2Coats": "180 – 200 sq. ft. / L",
+      "coverage": "180 – 200 sq. ft. / L (2 coats)",
+      "packs": "4L, 1L",
+      "image": "assets/images/products/ap-woodtech-aquadur-pu-interior.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#16a34a",
+      "tag": "Aquadur Interior"
+    },
+    {
+      "id": "ap-woodtech-aquadur-pu-exterior",
+      "serial": "6.06",
+      "name": "WoodTech Aquadur PU Exterior",
+      "brand": "Asian Paints",
+      "categoryGroup": "6. Texture & Glitters",
+      "categoryKey": "texture",
+      "finish": "Water-Based Exterior PU Wood Finish with High UV & Weather Resistance",
+      "warranty": "Exterior Weather Barrier",
+      "coverage1Coat": "85 – 95 sq. ft. / L",
+      "coverage2Coats": "170 – 190 sq. ft. / L",
+      "coverage": "170 – 190 sq. ft. / L (2 coats)",
+      "packs": "4L, 1L",
+      "image": "assets/images/products/ap-woodtech-aquadur-pu-exterior.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#0284c7",
+      "tag": "Aquadur Exterior"
     },
     {
       "id": "ap-apcolite-premium-enamel-gloss",
@@ -846,6 +954,42 @@ window.VasuData = {
       "hasUploadedPhoto": true,
       "colorAccent": "#ca8a04",
       "tag": "Metal Primer"
+    },
+    {
+      "id": "ap-trucare-red-oxide-metal-primer",
+      "serial": "7.06",
+      "name": "TruCare Red Oxide Metal Primer",
+      "brand": "Asian Paints",
+      "categoryGroup": "7. Enamels & Metal Finishes",
+      "categoryKey": "enamels",
+      "finish": "Solvent Thinnable Anti-Corrosive Metal Primer for Steel & Iron",
+      "warranty": "Anti-Rust Protection",
+      "coverage1Coat": "90 – 110 sq. ft. / L",
+      "coverage2Coats": "180 – 220 sq. ft. / L",
+      "coverage": "180 – 220 sq. ft. / L (2 coats)",
+      "packs": "4L, 1L, 500ml, 200ml",
+      "image": "assets/images/products/ap-trucare-red-oxide-metal-primer.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#ea580c",
+      "tag": "Red Oxide"
+    },
+    {
+      "id": "ap-woodtech-pu-thinner",
+      "serial": "7.07",
+      "name": "WoodTech PU Thinner",
+      "brand": "Asian Paints",
+      "categoryGroup": "7. Enamels & Metal Finishes",
+      "categoryKey": "enamels",
+      "finish": "Advanced High-Purity Dilution Thinner for Polyurethane (PU) Coatings",
+      "warranty": "Perfect PU Finish",
+      "coverage1Coat": "N/A (PU Thinner)",
+      "coverage2Coats": "N/A (PU Thinner)",
+      "coverage": "Diluent / Thinner (10% - 20%)",
+      "packs": "5L, 1L, 500ml",
+      "image": "assets/images/products/ap-woodtech-pu-thinner.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#0d9488",
+      "tag": "PU Thinner"
     },
     {
       "id": "ap-smartcare-vitalia-neo",
@@ -954,6 +1098,114 @@ window.VasuData = {
       "hasUploadedPhoto": true,
       "colorAccent": "#0d9488",
       "tag": "Epoxy Tri Block"
+    },
+    {
+      "id": "ap-royale-roller-950-plus",
+      "serial": "9.01",
+      "name": "Royale Roller 950 Plus",
+      "brand": "Asian Paints",
+      "categoryGroup": "9. Painting Tools & Rollers",
+      "categoryKey": "tools",
+      "finish": "Premium Professional Microfibre Roller for Ultra Smooth Luxury Finishes",
+      "warranty": "Professional Smooth Finish",
+      "coverage1Coat": "N/A (Painting Accessory)",
+      "coverage2Coats": "N/A (Painting Accessory)",
+      "coverage": "N/A (Painting Accessory)",
+      "packs": "1 Set (Roller + Handle)",
+      "image": "assets/images/products/ap-royale-roller-950-plus.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#7c3aed",
+      "tag": "Royale Roller"
+    },
+    {
+      "id": "ap-roller-800",
+      "serial": "9.02",
+      "name": "Roller 800",
+      "brand": "Asian Paints",
+      "categoryGroup": "9. Painting Tools & Rollers",
+      "categoryKey": "tools",
+      "finish": "High Density Smooth Finish Emulsion Roller for Interior & Exterior Walls",
+      "warranty": "High Coverage & Smooth Application",
+      "coverage1Coat": "N/A (Painting Accessory)",
+      "coverage2Coats": "N/A (Painting Accessory)",
+      "coverage": "N/A (Painting Accessory)",
+      "packs": "1 Set (Roller + Handle)",
+      "image": "assets/images/products/ap-roller-800.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#16a34a",
+      "tag": "Roller 800"
+    },
+    {
+      "id": "ap-trucare-kit-400-interior-felt-roller",
+      "serial": "9.03",
+      "name": "TruCare Kit 400 Interior Felt Roller",
+      "brand": "Asian Paints",
+      "categoryGroup": "9. Painting Tools & Rollers",
+      "categoryKey": "tools",
+      "finish": "4-Pack Interior Felt Roller Kit with High Coverage Per Dip",
+      "warranty": "High Coverage Felt Roller",
+      "coverage1Coat": "N/A (Painting Accessory)",
+      "coverage2Coats": "N/A (Painting Accessory)",
+      "coverage": "N/A (Painting Accessory)",
+      "packs": "Pack of 4 Rollers",
+      "image": "assets/images/products/ap-trucare-kit-400-interior-felt-roller.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#ea580c",
+      "tag": "Kit 400"
+    },
+    {
+      "id": "ap-trucare-720-interior-foam-roller",
+      "serial": "9.04",
+      "name": "TruCare 720 Interior Foam Roller",
+      "brand": "Asian Paints",
+      "categoryGroup": "9. Painting Tools & Rollers",
+      "categoryKey": "tools",
+      "finish": "High Density Bubble-Free Foam Roller Kit (Set of 2 Rollers)",
+      "warranty": "Bubble-Free Foam Finish",
+      "coverage1Coat": "N/A (Painting Accessory)",
+      "coverage2Coats": "N/A (Painting Accessory)",
+      "coverage": "N/A (Painting Accessory)",
+      "packs": "Pack of 2 Rollers",
+      "image": "assets/images/products/ap-trucare-720-interior-foam-roller.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#0284c7",
+      "tag": "Foam Roller"
+    },
+    {
+      "id": "ap-smartcare-mini-multipurpose-kit",
+      "serial": "9.05",
+      "name": "SmartCare Mini Multipurpose Kit",
+      "brand": "Asian Paints",
+      "categoryGroup": "9. Painting Tools & Rollers",
+      "categoryKey": "tools",
+      "finish": "Precision Mini Multipurpose Roller Kit for Edges, Corners, Doors & Furniture",
+      "warranty": "Multi-Surface Precision",
+      "coverage1Coat": "N/A (Painting Accessory)",
+      "coverage2Coats": "N/A (Painting Accessory)",
+      "coverage": "N/A (Painting Accessory)",
+      "packs": "1 Complete Mini Kit",
+      "image": "assets/images/products/ap-smartcare-mini-multipurpose-kit.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#eab308",
+      "tag": "Mini Kit"
+    },
+    {
+      "id": "ap-trucare-economy-mixer-m02",
+      "serial": "9.06",
+      "name": "TruCare Economy Mixer Series M-02",
+      "brand": "Asian Paints",
+      "categoryGroup": "9. Painting Tools & Rollers",
+      "categoryKey": "tools",
+      "finish": "Heavy Duty Power Paint & Putty Mixer with Ergonomic Grip and Speed Control",
+      "warranty": "TruCare Machine Reliability",
+      "coverage1Coat": "N/A (Heavy Duty Paint & Putty Mixer)",
+      "coverage2Coats": "N/A (Heavy Duty Paint & Putty Mixer)",
+      "coverage": "N/A (Heavy Duty Paint & Putty Mixer)",
+      "packs": "1 Electric Machine Set",
+      "image": "assets/images/products/ap-trucare-economy-mixer-m02.png",
+      "hasUploadedPhoto": true,
+      "colorAccent": "#ca8a04",
+      "tag": "Mixer M-02"
     },
     {
       "id": "kn-beauty-little-master",
@@ -1312,6 +1564,50 @@ window.VasuData = {
     }
   ],
 
+  // ==========================================================================
+  // CUSTOMER TESTIMONIALS (16:9 Customer & Home Pictures + Instagram Reels)
+  //
+  // HOW TO ADD NEW CUSTOMER STORIES:
+  // 1. Take or crop a photo of the customer with their painted home in 16:9 ratio.
+  //    (Recommended dimensions: 1920x1080, 1280x720, or 960x540).
+  // 2. Put the image inside: assets/images/testimonials/ (e.g., customer-home-5.jpg).
+  // 3. Add an entry below with your image file path and your Instagram reel link.
+  // ==========================================================================
+  TESTIMONIALS: [
+    {
+      id: "testimonial-1",
+      customerName: "M. Srikanth & Family",
+      location: "Pathapatnam",
+      image: "assets/images/testimonials/customer-home-1.jpg",
+      instagramReelUrl: "https://www.instagram.com/vasucolourworldpaints/",
+      caption: "Asian Paints Royale Luxury Emulsion home makeover"
+    },
+    {
+      id: "testimonial-2",
+      customerName: "V. Ramana Rao",
+      location: "Kalluru",
+      image: "assets/images/testimonials/customer-home-2.jpg",
+      instagramReelUrl: "https://www.instagram.com/vasucolourworldpaints/",
+      caption: "Apex Ultima Weatherproof exterior transformation"
+    },
+    {
+      id: "testimonial-3",
+      customerName: "P. Lakshmi Narayana",
+      location: "Parlakhemundi Road",
+      image: "assets/images/testimonials/customer-home-3.jpg",
+      instagramReelUrl: "https://www.instagram.com/vasucolourworldpaints/",
+      caption: "Kansai Nerolac Beauty Gold & Impressions interior finish"
+    },
+    {
+      id: "testimonial-4",
+      customerName: "G. Venkatesh",
+      location: "Tekkali Bypass",
+      image: "assets/images/testimonials/customer-home-4.jpg",
+      instagramReelUrl: "https://www.instagram.com/vasucolourworldpaints/",
+      caption: "SmartCare Damp Proof Advanced terrace waterproofing"
+    }
+  ],
+
   // Store Details & Contact Numbers
   STORE_INFO: {
     name: "Vasu Colour World Paints",
@@ -1327,4 +1623,3 @@ window.VasuData = {
     hoursText: "Call or message us to confirm today's timings."
   }
 };
-
